@@ -240,6 +240,8 @@ struct _GLFWwindow
     _GLFWmonitor*       monitor;
     _GLFWcursor*        cursor;
 
+    void* _E3DWindow;
+    
     // Window input state
     GLboolean           stickyKeys;
     GLboolean           stickyMouseButtons;
